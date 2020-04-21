@@ -1,0 +1,89 @@
+div{
+
+    height: 80px;
+    width: 80px;
+    margin: 40px;
+    background-color: blue;
+
+
+}
+
+
+@keyframes slides{
+
+from{
+
+margin-left: 30px ;
+
+}
+
+
+to{
+
+
+    margin-right: 130px;
+}
+
+
+}
+
+
+@keyframes slide{
+
+
+0%{
+
+    background-color: brown;
+
+
+}
+
+
+
+50%{
+
+    background-color: yellow;
+}
+
+
+100%{
+
+
+background-color    :red;
+
+
+}
+
+
+
+
+
+}
+
+
+
+
+#div1:hover+div{
+
+
+    animation-name:slides;
+    animation-duration:0.5s;
+
+    animation-iteration-count: 3;
+
+
+}
+
+
+
+#div3:hover+div{
+
+
+    animation-name:slide;
+    animation-duration:2s;
+
+    animation-iteration-count: 3;
+    /* background-color: brown; */
+
+
+}

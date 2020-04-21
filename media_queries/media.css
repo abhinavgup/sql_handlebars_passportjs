@@ -1,0 +1,62 @@
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+
+.sidebar{
+    background-color: aqua;
+    flex-grow:1 ;
+}
+
+.content{
+    background-color: brown;
+    flex-grow: 3;
+}
+
+@media(min-width:750px) and (max-width:1000px){
+
+.content{
+
+    width: 400px;
+    padding: 40px;
+}
+
+.container{
+
+    /* justify-content:space-around; */
+}
+
+
+}
+
+
+@media(max-width:750px) {
+
+
+    ul li {
+
+     display: inline-block;
+     width: 30px;
+     height:30px;
+     border:black solid 1px;
+
+    }
+
+}
+
+@media(min-width:1000px) {
+
+
+    .content {
+
+    
+     width: 600px;
+     padding-left: 50px;
+     padding-right: 50px;
+    
+
+    }
+
+}
