@@ -1,0 +1,54 @@
+ul ul {
+                    ///this means one ul is inside another ul
+display:none;
+
+
+}
+
+
+li:hover{
+
+color:red
+
+}
+
+
+li:hover  li{                 // it means li parent pe hover and  the space btw it means display:block to all it s descendants 
+
+display:block
+}
+
+
+li:hover > ul{                 // it means li parent pe hover and  the >  btw it means display:block to all it child 
+
+display:block
+}
+
+
+
+transform:transalte(30px,30px)      // right,bottom
+
+
+scale from center	
+later tansform is applied if written in diff lines
+
+transform:rotate
+
+
+scaling in y direction same to roate in y direction
+
+
+
+position:static
+position:relative
+position:fixed
+position:absolute
+position:fixed				
+
+
+
+
+
+
+
+

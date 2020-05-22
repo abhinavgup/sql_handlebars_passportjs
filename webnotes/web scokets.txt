@@ -1,0 +1,51 @@
+client has to fine the path thrgh which it will transmit conenction to server
+
+1)domain name like cb.lk
+
+
+2)coding blocks.com
+
+3) ip address
+
+web sockets run on http 
+
+
+client send a request to abc.com and gets respossne in form of a webpage
+
+and there will be some js code on webpage which will alow server to crate socket connection
+
+and if server accepts conection so apipeline btwn two will be created 
+
+
+if we want to send a request form on end of pipe to another we dont need to find the ip adresss ot the path  again again
+
+faster 
+
+
+both ends of pipe can send or receive data 
+
+
+socket.io is a library 
+
+
+A can send data into pipeline using emit function and b will receive it in on function
+
+run express app and socketio on http server
+
+
+// create socketio instance on http server
+
+
+script src="/socket.io/socket.io"    client side libray
+
+this cript helps making global io function available to us 	
+
+
+io()      function called on client so creates connection btw client and server
+
+and io() return an object called socket(it is basicasllasy the pipeline)
+
+
+
+io.on   
+to listen when server conection is made

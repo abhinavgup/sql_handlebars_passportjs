@@ -1,0 +1,27 @@
+git clone
+git log  what all cahnges in past
+
+
+git init 
+git status 
+git log 
+git log --oneline
+git diff
+git checkout branch
+git checkout -b branchname
+
+git checkout branchname
+
+git merge branchname
+
+
+for pr request
+
+git clone https://github.com/abhinavgup/make_a_pr.git
+cd make_a_pr
+git add -A     // ads all files
+git commit -m "updated"
+git push origin master
+
+
+

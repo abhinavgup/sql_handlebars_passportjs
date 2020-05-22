@@ -1,0 +1,50 @@
+flexboxes work only with inline elements not block elements
+
+
+display:flex   --- enables element one after the other
+
+
+
+*{
+
+/// whatever we write in it so al html file gets it applied
+
+}
+
+
+flex-direction:row
+flex-direction:row-reverse
+
+flex-direction:column
+
+
+flex-wrap:wrap  /// items will wrap to next line if space is to less on the page
+
+justify-content:center/start/end
+
+justfy-content:space-around / space-between
+
+align-items:center
+
+align-content:space-between
+
+
+#item{
+
+order:1
+}
+
+
+
+flex-grow:2
+
+
+
+flex-shrink:2   but dont use flex-wrap:wrap in it
+
+
+#item{
+
+
+align-self:flex-end     // in it dont use flex-wrap:wrap           /// aligns  individaul  elemenet acc. 
+}

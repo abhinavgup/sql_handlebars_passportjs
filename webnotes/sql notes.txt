@@ -1,0 +1,18 @@
+whatever arguments we write into command line in node js  so they go into an array called process .argv 
+
+so we need to extract them in node js
+
+
+
+we start form 2 as 
+process.argv = ['node', 'yourscript.js', ...]
+
+
+1 st value is node 
+and 2 value is name of file
+
+
+
+orm (sequelize) --- 
+
+helps us not to write any sql command  and helps creating clases and objects

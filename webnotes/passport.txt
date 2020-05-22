@@ -1,0 +1,12 @@
+serialize user-
+
+how to store user in session
+
+
+deserialize -
+how to extract actual user from session
+
+
+npm install passport passport-local
+
+npm install express-session
